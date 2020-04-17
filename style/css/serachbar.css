@@ -1,0 +1,81 @@
+.serach{
+  margin-top: 1%;
+  height: 35%;
+  width: 100%;
+  background-color:#d2d4d6;
+}
+
+  .category select {
+  position: relative;
+  outline: none;
+  box-shadow: none;
+  background: #333333;
+  border: 0 !important;
+  color: white;
+  width: 200%;
+  height: 17%;
+  display: block;
+  line-height: 3;
+  border-radius: .25em;
+}
+
+.category{
+  padding-left: 25%;
+  float: left;
+  padding-top: 3%;
+}
+
+.location select {
+position: relative;
+outline: none;
+box-shadow: none;
+background: #333333;
+border: 0 !important;
+color: white;
+width: 200%;
+height: 17%;
+display: block;
+line-height: 3;
+border-radius: .25em;
+}
+
+.location{
+padding-left: 15%;
+float: left;
+padding-top: 3%;
+}
+
+.btnserach{
+margin-top:10%;
+margin-left:-17%;
+background-color:#4CAF50;
+color:#ffffff;
+padding:10px;
+padding-left:30px;
+padding-right:30px;
+}
+
+@media screen and (max-width: 600px) {
+.category{
+  float: none;
+  padding-left: 5%;
+}
+.category select {
+  width: 95%;
+}
+
+.location{
+  float: none;
+  padding-left: 5%;
+}
+.location select {
+  width: 95%;
+}
+.serach{
+  height: 30%;
+}
+.btnserach{
+  margin-left:40%;
+  padding:5px;
+}
+}

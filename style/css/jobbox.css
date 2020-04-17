@@ -1,0 +1,31 @@
+.jobbox1{
+  background-color: #2ED1DD;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  height: 30%;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.jobbox1 img{
+  width: 23%;
+  padding: 0.1%;
+  float: left;
+  padding-right: 4%;
+}
+
+.jobbox1 #p{
+  margin-left:500px;
+}
+@media screen and (max-width: 600px) {
+  .jobbox1{
+    height: 30%;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .jobbox1 #p{
+    margin-left:200px;
+  }
+}

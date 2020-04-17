@@ -1,0 +1,31 @@
+body{
+  background-color::#d2d4d6
+}
+
+h1{
+  text-align: center;
+}
+.mtable table{
+  width: 80%;
+  border-collapse: collapse;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.mtable table, th, td {
+  border: 1px solid black;
+}
+
+.mtable  th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.mtable #btn{
+  background-color: red;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px;
+  margin: 2px;
+}
